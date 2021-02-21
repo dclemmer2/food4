@@ -59,6 +59,7 @@ class Controller
 
         //var_dump($_POST);
         $this->_f3->set('meals', $dataLayer->getMeals());
+        //Make form sticky
         $this->_f3->set('userFood', isset($userFood) ? $userFood : "");
         $this->_f3->set('userMeal', isset($userMeal) ? $userMeal : "");
 
